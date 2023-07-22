@@ -17,12 +17,13 @@ const Main = () => {
           </h1>
           <h1 className="py-2 text-gray-700">A Full Stack Web Developer</h1>
           <p className="py-4 text-gray-600 sm:max-w-[70%] m-auto">
-            I’m focused on building responsive front-end web applications
-            integrating back-end technologies.
+            I am currently a passionate and dedicated 4th-year B.Tech Computer
+            Science student, eagerly seeking to embark on an exciting journey in
+            the world of technology.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <a
-              href="https://www.linkedin.com/in/clint-briley-50056920a/"
+              href="https://www.linkedin.com/in/aman-yadav-351357167/"
               target="_blank"
               rel="noreferrer"
             >
@@ -31,7 +32,7 @@ const Main = () => {
               </div>
             </a>
             <a
-              href="https://github.com/fireclint"
+              href="https://github.com/Amanyadav1901/"
               target="_blank"
               rel="noreferrer"
             >
