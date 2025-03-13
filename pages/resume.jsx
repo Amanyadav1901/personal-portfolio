@@ -1,187 +1,142 @@
-import React from 'react';
-import Head from 'next/head';
-import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import React from "react";
+import Head from "next/head";
+import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 const resume = () => {
   return (
     <>
       <Head>
-        <title>Clint | Resume</title>
+        <title>Aman | Resume</title>
         <meta
-          name='description'
-          content='I’m a front-end web developer specializing in building (and occasionally designing) exceptional digital experiences.'
+          name="description"
+          content="I’m a Software Developer | Enhancing performance and driving insights through data analysis and application optimization."
         />
-        <link rel='icon' href='/fav.png' />
+        <link rel="icon" href="/fav.png" />
       </Head>
 
-      <div className='max-w-[940px] mx-auto p-2 pt-[120px]'>
-        <h2 className='text-center'>Resume</h2>
-        <div className='bg-[#d0d4d6] my-4 p-4 w-full flex justify-between items-center'>
-          <h2 className='text-center'>Clint Briley</h2>
-          <div className='flex'>
+      <div className="max-w-[940px] mx-auto p-2 pt-[120px]">
+        <h2 className="text-center">Resume</h2>
+        <div className="bg-[#d0d4d6] my-4 p-4 w-full flex justify-between items-center">
+          <h2 className="text-center">Aman Yadav</h2>
+          <div className="flex">
             <a
-              href='https://www.linkedin.com/in/clint-briley-50056920a/'
-              target='_blank'
-              rel='noreferrer'
+              href="https://www.linkedin.com/in/aman-yadav-351357167/"
+              target="_blank"
+              rel="noreferrer"
             >
-              <FaLinkedinIn size={20} style={{ marginRight: '1rem' }} />
+              <FaLinkedinIn size={20} style={{ marginRight: "1rem" }} />
             </a>
             <a
-              href='https://github.com/fireclint'
-              target='_blank'
-              rel='noreferrer'
+              href="https://github.com/Amanyadav1901/"
+              target="_blank"
+              rel="noreferrer"
             >
-              <FaGithub size={20} style={{ marginRight: '1rem' }} />
+              <FaGithub size={20} style={{ marginRight: "1rem" }} />
             </a>
           </div>
         </div>
-        <div className='text-center py-4 text-xl font-bold uppercase tracking-wider'>
-          <div className='hidden sm:block'>
+        <div className="text-center py-4 text-xl font-bold uppercase tracking-wider">
+          <div className="hidden sm:block">
             <p>
-              Proven Leadership <span className='px-1'>|</span> Web Development{' '}
-              <span className='px-1'>|</span> Complex Problem Solving
+              Software Developer <span className="px-1">|</span> Data Analyst
+              <span className="px-1">|</span> Performance Enhancement
             </p>
           </div>
-          <div className='block sm:hidden'>
-            <p>Proven Leadership</p>
-            <p className='py-2'>Web Development</p>
+          <div className="block sm:hidden">
+            <p className="py-2">Web Development</p>
             <p>Complex Problem Solving</p>
           </div>
         </div>
         <p>
-          Analytical, innovative, and motivated web development professional
-          with experience in customer service, team leadership, and
-          organizational effectiveness in fast-paced and challenging
-          environments. Adept at developing strategies and driving streamlined
-          operations. Diverse analytical skills, team collaboration, and
-          relationship building. Consummate professional, and motivated leader,
-          with solid interpersonal abilities and complex problem-solving skills.
-          Effective and proven track record of critical thinking, idea
-          generation, and optimizing efficiencies.
+          With a strong foundation in Data Structures and Algorithms, I have
+          honed my problem-solving abilities and deepened my understanding of
+          computer science principles, enabling me to tackle complex challenges
+          effectively. My journey in the tech industry has been enriched by
+          hands-on experience in data analysis, performance optimization, and
+          application development. During my internships, I worked as a Full
+          Stack Web Developer, collaborating with teams to create innovative
+          solutions, and later as a Frontend Web Developer, refining my ability
+          to design intuitive user interfaces.
         </p>
 
         {/* Skills */}
-        <div className='text-center py-4'>
-          <h5 className='text-center underline text-[18px] py-2'>Skills</h5>
-          <p className='py-2'>
-            <span className='font-bold'>Technical Skills</span>
-            <span className='px-2'>|</span>Front-End Web Developer
-            <span className='px-2'>|</span> HTML
-            <span className='px-2'>|</span>CSS
-            <span className='px-2'>|</span>Javascript
-            <span className='px-2'>|</span>React
-            <span className='px-2'>|</span>Next JS
-            <span className='px-2'>|</span>SQL
-            <span className='px-2'>|</span>NoSQL
-            <span className='px-2'>|</span>Redux
-            <span className='px-2'>|</span>Tailwind
-            <span className='px-2'>|</span> Firebase
-            <span className='px-2'>|</span> RESTAPI
-          </p>
-          <p className='py-2'>
-            <span className='font-bold'>Amazon Web Services</span>
-            <span className='px-2'>|</span>Amazon Web Services Cloud
-            Practitioner
+        <div className="text-center py-4">
+          <h5 className="text-center underline text-[18px] py-2">Skills</h5>
+          <p className="py-2">
+            <span className="font-bold">Technical Skills</span>
+            <span className="px-2">|</span>Full stack Web Developer
+            <span className="px-2">|</span> HTML
+            <span className="px-2">|</span>CSS
+            <span className="px-2">|</span>Javascript
+            <span className="px-2">|</span>React
+            <span className="px-2">|</span>Angular
+            <span className="px-2">|</span>Next JS
+            <span className="px-2">|</span>SQL
+            <span className="px-2">|</span>NoSQL
+            <span className="px-2">|</span>Node JS
+            <span className="px-2">|</span> Spring Boot
+            <span className="px-2">|</span>Tailwind
+            <span className="px-2">|</span> RESTAPI
           </p>
         </div>
 
-        <h5 className='text-center underline text-[18px] py-4'>
+        <h5 className="text-center underline text-[18px] py-4">
           Professional Experience
         </h5>
         {/* Experience */}
-        <div className='py-6'>
-          <p className='italic'>
-            <span className='font-bold italic'>
-            INFINITE TECH
-            </span>
-            <span className='px-2'>|</span>Dallas, TX
+        <div className="py-6">
+          <p className="italic">
+            <span className="font-bold italic">CBRE</span>
+            <span className="px-2">|</span>Gurgram, IN
           </p>
-          <p className='py-1 italic'>Front End Web Developer & Web Master (2013 - Current)</p>
-          <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
+          <p className="py-1 italic">
+            Associate Software Engineer (Feb 2024 - Current)
+          </p>
+          <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
             <li>
-              Ensured comprehensive mobile responsive UI layouts with
-              understanding of HTML, CSS, and JavaScript.
+              Conducted performance testing using JMeter, executing test cases
+              to evaluate system performance under various conditions.
             </li>
             <li>
-              Troubleshoot issues and concerns, configure operation and analytic
-              plugins, and design changes as needed.
+              Analyzed test results to identify bottlenecks and optimize system
+              efficiency and reliability.
             </li>
             <li>
-              Worked directly with a diverse client base to understand and
-              implement multiple technologies and programs.
+              Actively upskilled in software development, focusing on building
+              scalable applications with Spring Boot.
             </li>
             <li>
-              Platform migration managing DNS servers as well as MX records and
-              ensuring a smooth migration process.
+              Balanced performance testing responsibilities while enhancing
+              development expertise to contribute to application optimization.
             </li>
           </ul>
         </div>
 
-
         {/* Personal Experience */}
-        <div className='py-6'>
-          <p className='italic'>
-            <span className='font-bold italic'>
-              Teaching & Mentoring Web Development
-            </span>
-            <span className='px-2'>|</span>Dallas, TX
+        <div className="py-6">
+          <p className="italic">
+            <span className="font-bold italic">Bixtop</span>
+            <span className="px-2">|</span>Dallas, TX
           </p>
-          <p className='py-1 italic'>Code Commerce - Youtube Channel (2021 - Current)</p>
-          <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
+          <p className="py-1 italic">
+            Full stack Web Developer Intern (May 2023 - August 2023)
+          </p>
+          <ul className="list-disc list-outside px-7 py-1 leading-relaxed">
             <li>
-              In 2021 I started “Code Commerce”, a YouTube channel focused on
-              sharing what I’m learning in web development, specifically
-              front-end development.
+              Created an admin portal from scratch to efficiently manage user
+              profiles, ensuring seamless verification process reducing
+              verification time by 75%, integrated user authentication
+              mechanism.
             </li>
             <li>
-              Private 1 on 1 Zoom coaching calls related to web development.
-              More specifically debugging, teaching basic web development
-              concepts and code reviews.
+              Incorporated interactive graphs and Designed a robust lead
+              management system, resulting in 50% faster response times and
+              better customer satisfaction.
             </li>
           </ul>
         </div>
 
         {/*  */}
-        <h5 className='text-center underline text-[18px] py-4'>
-          Other Professional Experience
-        </h5>
-      
-        {/* Experience */}
-        <div className='py-6'>
-          <p className='italic'>
-            <span className='font-bold'>CITY OF SHERMAN, TX</span>
-            <span className='px-2'>|</span>Sherman, TX
-          </p>
-          <p className='py-1 italic'>Paramedic / Firefighter (2010 – 2019)</p>
-          <ul className='list-disc list-outside px-7 py-1 leading-relaxed'>
-            <li>
-              Ensured proper implementation of firefighting techniques and
-              practices including controlling and extinguishing fires, operating
-              hose lines, and fire ground operations, ventilation, and search
-              and rescue.
-            </li>
-            <li>
-              Oversaw comprehensive understanding, operation, and maintenance of
-              fire engines, ladder trucks, technical rescue apparatus, and
-              response trailers.
-            </li>
-            <li>
-              Performed ALS techniques as needed within emergency situations
-              including the use of an esophageal or dual lumen airway device and
-              oral intubation using laryngoscopy.
-            </li>
-            <li>
-              Collaborated with a talented and high performing team of
-              firefighters in high pressure and stressful situations as needed.
-            </li>
-            <li>
-              Utilized proven and demonstrated knowledge of multiple
-              certifications including Pediatric Advanced Life Support,
-              Prehospital Trauma Life Support, and Advanced Cardiac Life
-              Support, among others.
-            </li>
-          </ul>
-        </div>
       </div>
     </>
   );

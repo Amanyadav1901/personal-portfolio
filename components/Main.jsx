@@ -15,11 +15,10 @@ const Main = () => {
           <h1 className="py-4 text-gray-700">
             Hi, I&#39;m <span className="text-[#5651e5]"> Aman </span>
           </h1>
-          <h1 className="py-2 text-gray-700">A Full Stack Web Developer</h1>
+          <h1 className="py-2 text-gray-700">Software Developer</h1>
           <p className="py-4 text-gray-600 sm:max-w-[70%] m-auto">
-            I am currently a passionate and dedicated 4th-year B.Tech Computer
-            Science student, eagerly seeking to embark on an exciting journey in
-            the world of technology.
+            Building high-performance applications, optimizing code, and
+            unlocking data-driven insights
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <a

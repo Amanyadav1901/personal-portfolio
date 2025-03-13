@@ -8,6 +8,11 @@ import Tailwind from "../public/assets/skills/tailwind.png";
 import Github from "../public/assets/skills/github1.png";
 import nodejs from "../public/assets/skills/nodejs.png";
 import cpp from "../public/assets/skills/c++logo.png";
+import mongodb from "../public/assets/skills/mongo.png";
+import nextjs from "../public/assets/skills/nextjs.png";
+import typescript from "../public/assets/skills/typescript.png";
+import angular from "../public/assets/skills/angularjs.png";
+import springboot from "../public/assets/skills/springboot.png";
 
 const Skills = () => {
   return (
@@ -28,16 +33,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
-              <div className="m-auto">
-                <Image src={Html} width="64px" height="64px" alt="/" />
-              </div>
-              <div className="flex flex-col items-center justify-center">
-                <h3>HTML</h3>
-              </div>
-            </div>
-          </div>
+
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
@@ -48,6 +44,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
+
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
@@ -62,6 +59,17 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
+                <Image src={typescript} width="64px" height="64px" alt="/" />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>Typescript</h3>
+              </div>
+            </div>
+          </div>
+
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
                 <Image src={ReactImg} width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
@@ -69,6 +77,40 @@ const Skills = () => {
               </div>
             </div>
           </div>
+
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image src={angular} width="64px" height="64px" alt="/" />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>Angular</h3>
+              </div>
+            </div>
+          </div>
+
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image src={nextjs} width="64px" height="64px" alt="/" />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>Next JS</h3>
+              </div>
+            </div>
+          </div>
+
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image src={Tailwind} width="64px" height="64px" alt="/" />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>Tailwind</h3>
+              </div>
+            </div>
+          </div>
+
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
@@ -79,13 +121,14 @@ const Skills = () => {
               </div>
             </div>
           </div>
+
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image src={Tailwind} width="64px" height="64px" alt="/" />
+                <Image src={springboot} width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3>Tailwind</h3>
+                <h3>Spring Boot</h3>
               </div>
             </div>
           </div>
@@ -104,40 +147,7 @@ const Skills = () => {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image src={Github} width="64px" height="64px" alt="/" />
-              </div>
-              <div className="flex flex-col items-center justify-center">
-                <h3>Angular</h3>
-              </div>
-            </div>
-          </div>
-
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
-              <div className="m-auto">
-                <Image src={Github} width="64px" height="64px" alt="/" />
-              </div>
-              <div className="flex flex-col items-center justify-center">
-                <h3>Spring Boot</h3>
-              </div>
-            </div>
-          </div>
-
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
-              <div className="m-auto">
-                <Image src={Github} width="64px" height="64px" alt="/" />
-              </div>
-              <div className="flex flex-col items-center justify-center">
-                <h3>Typescript</h3>
-              </div>
-            </div>
-          </div>
-
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
-              <div className="m-auto">
-                <Image src={Github} width="64px" height="64px" alt="/" />
+                <Image src={mongodb} width="64px" height="64px" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>MongoDB</h3>

@@ -13,37 +13,37 @@ const About = () => {
           </p>
           <h2 className="py-4">Who I Am</h2>
           <p className="py-2 text-gray-600">
-            I am currently a passionate and dedicated Software Developer,
-            eagerly seeking to embark on a more exciting journey in the world of
-            technology. My goal is to secure a more challenging{" "}
+            I am a passionate and results-driven Software Developer, dedicated
+            to building high-performance applications, optimizing code, and
+            leveraging data-driven insights. My goal is to secure a more
+            challenging
             <span className="text-[#5651e5]">
               Software Development Engineer (SDE)
-            </span>{" "}
-            role at a tech company, where I can utilize my skills and knowledge
-            to drive innovation and make a significant impact.
+            </span>
+            role at a tech company where I can drive innovation and make a
+            meaningful impact.
           </p>
           <p className="py-2 text-gray-600">
-            Throughout my academic and Professional journey, I have delved deep
-            into the fascinating realm of Data Structures and Algorithms, honing
-            my problem-solving abilities and cultivating a strong foundation in
-            computer science principles.
+            With a strong foundation in Data Structures and Algorithms, I have
+            honed my problem-solving abilities and deepened my understanding of
+            computer science principles, enabling me to tackle complex
+            challenges effectively.
           </p>
           <p className="py-2 text-gray-600">
-            My passion for turning ideas into reality has led me to embark on
-            enriching internship experiences. During my first internship as a
-            Full Stack Web Developer, I had the privilege to collaborate with a
-            talented team and contribute to the development of innovative web
-            solutions. Subsequently, my second internship as a Frontend Web
-            Developer allowed me to refine my skills in creating captivating
-            user interfaces and delivering exceptional user experiences.
+            With over a year of experience as a Software Developer in an MNC, I
+            have worked on building high-performance applications, optimizing
+            code, and leveraging data analysis to drive efficiency. Previously,
+            during my internships, I contributed as a Full Stack Web Developer,
+            collaborating on innovative solutions, and later as a Frontend Web
+            Developer, refining user interface design and experience.
           </p>
+
           <p className="py-2 text-gray-600">
-            As I move forward in my journey, I am committed to continuous
-            learning, keeping myself updated with the latest trends and
-            technologies in the ever-evolving tech industry. I thrive in dynamic
-            environments, where challenges are embraced as opportunities for
-            growth, and creativity knows no bounds.
+            I am committed to continuous learning and staying at the forefront
+            of emerging technologies. I thrive in dynamic environments where
+            challenges drive growth, and creativity fuels innovation.
           </p>
+
           <Link href="/#projects">
             <p className="py-2 text-gray-600 underline cursor-pointer">
               Check out some of my latest projects.
