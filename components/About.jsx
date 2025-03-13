@@ -13,24 +13,20 @@ const About = () => {
           </p>
           <h2 className="py-4">Who I Am</h2>
           <p className="py-2 text-gray-600">
-            I am currently a passionate and dedicated 4th-year B.Tech Computer
-            Science student, eagerly seeking to embark on an exciting journey in
-            the world of technology. My goal is to secure a{" "}
+            I am currently a passionate and dedicated Software Developer,
+            eagerly seeking to embark on a more exciting journey in the world of
+            technology. My goal is to secure a more challenging{" "}
             <span className="text-[#5651e5]">
               Software Development Engineer (SDE)
             </span>{" "}
-            role at a big tech company, where I can utilize my skills and
-            knowledge to drive innovation and make a significant impact.
+            role at a tech company, where I can utilize my skills and knowledge
+            to drive innovation and make a significant impact.
           </p>
           <p className="py-2 text-gray-600">
-            Throughout my academic journey, I have delved deep into the
-            fascinating realm of Data Structures and Algorithms, honing my
-            problem-solving abilities and cultivating a strong foundation in
-            computer science principles. Additionally, I have explored the
-            dynamic world of Full Stack Web Development, mastering the MERN
-            (MongoDB, Express.js, React, Node.js) stack, which empowers me to
-            build robust and user-centric applications that seamlessly integrate
-            the front-end and back-end.
+            Throughout my academic and Professional journey, I have delved deep
+            into the fascinating realm of Data Structures and Algorithms, honing
+            my problem-solving abilities and cultivating a strong foundation in
+            computer science principles.
           </p>
           <p className="py-2 text-gray-600">
             My passion for turning ideas into reality has led me to embark on
